@@ -1,28 +1,10 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore all python cache files
+__pycache__
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore all backup files
+*~
+# Ignore the build dir
+build
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore any executables
+bin/*
